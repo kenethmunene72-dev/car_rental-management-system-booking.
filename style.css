@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    background: #14213d;
+    color: white;
+    padding: 25px;
+}
+
+h2 {
+    color: #14213d;
+}
+
+.menu {
+    background: #14213d;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ccc;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    max-width: 450px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background: #14213d;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #fca311;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #14213d;
+    color: white;
+}
+
+a {
+    color: #14213d;
+}
